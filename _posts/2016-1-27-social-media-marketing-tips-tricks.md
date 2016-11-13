@@ -5,6 +5,8 @@ title: Social media marketing on a £0 budget
 
 Over the past two years I've picked up many different tips and tricks which I am going to try and summarise below. These things though quite simple to implement have helped me not only save time, save money, but also to get amazing speakers to give talks at the events I run ([SSDC](http://meetup.com/swansea-software-development-community) / [SwanseaCon](http://swanseacon.co.uk)).
 
+![_config.yml]({{ site.baseurl }}/images/social-auto.png)
+
 ## Social Media 
 
 People often turn their noses up at particular social media sites or even social media all together, but if your pushing a brand, event or anything else it's important to make the most of the different types of audiences and maximise opportunity!

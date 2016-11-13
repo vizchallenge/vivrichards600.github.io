@@ -5,6 +5,8 @@ title: It's never to late to start a career in software development
 
 Whether your struggling to find a job, your current job isn't making you happy or you feel you don't have the right qualifications to start a fun rewarding career, it's never to late to get involved and start a career as a software developer.
 
+![_config.yml]({{ site.baseurl }}/images/career.jpg)
+
 I count myself very lucky to be a software developer. There are so many new challenges, things to learn, opportunities, and the salary is pretty good. 
 
 Where I live an average salary for a developer is really well paid and as long as you put the effort in a lack of education or a degree does not matter. Companies are not always looking for qualifications, they are looking for work experience, good attitudes, people who invest time in their own career etc. There are many other job types which in order for you to get the role you wanted you’d need to have a degree as well as completing training to get the same sort of salary as a software developer. I’m not saying to not try hard at school, of course having a good education, qualifications and a degree are fantastic things to have and give you a great foundation to build on, but not having them shouldn't mean that you cannot reach your goals and I’d argue this is definitely the case if you want to have a career as a software developer.
