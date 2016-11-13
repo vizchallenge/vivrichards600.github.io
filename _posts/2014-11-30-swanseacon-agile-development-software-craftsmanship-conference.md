@@ -9,7 +9,7 @@ Due to the massive price on tickets for software conferences and with the neares
 
 * I've never been to a conference
 * I have little money
-* I can't find anybody else will to take a chance on this and help out
+* I can't find anybody else who will take a chance on this and help out
 * I'm unsure if people will come to speak or buy tickets to attend
 * I don't know the running costs to put on something like this
 
