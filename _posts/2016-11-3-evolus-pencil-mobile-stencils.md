@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Custom App Stencils for prototyping within Pencil
+title: Custom Stencils for prototyping a modern looking Mobile App within Pencil
 ---
 
 I've not used [Pencil](http://pencil.evolus.vn/) in a while but thought I'd download it again to try and quickly put together a few prototypes for a new mobile app idea I had. 
@@ -11,7 +11,9 @@ I played around for a while with the stencils which come with Pencil but nothing
 
 Below is a mock-up of some of the types of screens you can create with the free Stencil pack I've created. I hope you like the look of the various elements which you can use to play around with new ideas and create some great looking apps which are a joy to use.
 
-![_config.yml]({{ site.baseurl }}/images/mobile-stencil-screenshot.png)
+*Screenshot of custom stencils:*
+
+![_config.yml]({{ site.baseurl }}/images/mobile-stencil-screenshot.png) 
 
 ## Installing the App Stencils
 
