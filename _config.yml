@@ -3,13 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: Viv Richards
+name: Viv
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: SC/DBS cleared Software Engineer & Scrum Master. Agile, Craftsmanship, Accessibility, Testing.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://secure.gravatar.com/avatar/69ef25357f312c11a262a1d6da609974
+avatar: #https://secure.gravatar.com/avatar/69ef25357f312c11a262a1d6da609974
 
 #
 # Flags below are optional
@@ -41,7 +41,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: http://vivrichards.co.uk
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
