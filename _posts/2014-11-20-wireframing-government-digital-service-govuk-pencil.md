@@ -23,7 +23,7 @@ In order to use the App Stencils you will need to install Pencil and also downlo
 * open Pencil
 * within Pencil click on the 'My Stuff' tab 
 * in the panel underneath the 'My Stuff' tab right click and select 'Import new private collection..' 
-* navigate to the 'GOV UK Stencils 20112014.zip' which you downloaded and click 'Open'.
+* navigate to the 'GOV UK Stencils.zip' which you downloaded and click 'Open'.
 * when prompted to install the unsigned collection, click Install
 
 ![_config.yml]({{ site.baseurl }}/images/evolus-pencil.png)
