@@ -47,7 +47,8 @@ Protractor needs two files to run, a spec file and a configuration file.
 Let's create a simple test that navigates to the home page of the computers database site and attempts to read some of the text from the `h1` heading on the top of the page.
 
 Copy the following into HomePageSpec.js:
-```describe('Computers database homepage', function() {
+
+describe('Computers database homepage', function() {
   
   it('should be displayed', function() {
     browser.get('http://computer-database.herokuapp.com/computers');
@@ -62,17 +63,17 @@ Copy the following into HomePageSpec.js:
 	});
   
 }); 
-```
+
 The describe and it syntax is from the Jasmine framework. browser is a global created by Protractor, which is used for browser-level commands such as navigation with browser.get. The beforeEach function is what we include to enable us to run Protractor Javascript tests against non AngularJs pages, this ensures our tests don't hang about waiting for Angular promises! Failure to have this in our test specs will cause tests to fail.
 
 Configuration
 Now create the configuration file. Copy the following into conf.js:
-```
+
 exports.config = {
   seleniumAddress: 'http://localhost:4444/wd/hub',
   specs: ['HomePageSpec.js']
 };
-```
+
 This configuration tells Protractor where your test files (specs) are, and where to talk to your Selenium Server (seleniumAddress). It will use the defaults for all other configuration. Chrome is the default browser.
 
 ## Run the test
