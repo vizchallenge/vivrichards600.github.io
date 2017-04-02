@@ -14,6 +14,8 @@ I've always been interested in QA and quite recently have found myself looking a
 
 I decided this role sounded really interesting and so attempted the [QA Engineer assignment](https://github.com/vivrichards600/QATestingCaseKata). I've previous experience with Selenium Webdriver but thought that I would take a look at Protrator to see if I could learn something new as well as demonstrate my ability to quickly pick up something new. 
 
+![Protractor](http://www.protractortest.org/img/protractor-logo-450.png) 
+
 > Protractor is an end-to-end test framework for Angular and AngularJS applications. Protractor runs tests against your application running in a real browser, interacting with it as a user would.
 
 Initially this looked like a non starter after reading through the Protractor homepage. I'd been given a link to a web application which was a non AngularJs site. After further digging I discovered not only were the tests simple to setup using Javascript but you could run them on a non AngularJs page!
