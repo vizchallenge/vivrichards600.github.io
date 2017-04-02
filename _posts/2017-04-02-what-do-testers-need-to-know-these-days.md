@@ -28,4 +28,4 @@ It seems these days you need to be able to write or at least understand some bas
 
 In each interview they ask some very basic testing questions (what is black box testing, white box, what is quality, boundary testing, regression etc..) and then it jumps quickly in to a very technical conversation. Is this because of my background or is this the way testing is going? I don't know?
 
-I personally think testers need to be aware of what's going on in the dev world - go to meet-ups (www.meetup.com) or conferences (www.swanseacon.co.uk - sorry for the shameless plug :wink: ) and be aware of what's going on, read some blogs or belong to this awesome forum and see what people are talking about, play around with some basic html/css/javascript, maybe tinker with Selenium Webdriver or the recorder.
+I personally think testers need to be aware of what's going on in the dev world - go to meet-ups (http://www.meetup.com) or conferences (http://www.swanseacon.co.uk - sorry for the shameless plug ;) ) and be aware of what's going on, read some blogs, play around with some basic html/css/javascript, maybe tinker with Selenium Webdriver or the recorder.
