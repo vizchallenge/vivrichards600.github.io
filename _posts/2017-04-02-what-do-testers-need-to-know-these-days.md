@@ -7,6 +7,8 @@ I'm currently a software developer and for the past year I have been looking to 
 
 In my quest to move I've been trying to asses what testers are up to these days, what the requested skill set is etc. I was surprised by how many roles requested ISTQB on the job profile but when I got to interview it was just a box ticking exercise and actually the interviewers stated they don't really care about the qualification - they recommended the BCS Agile Testing or Rapid Software Testing!
 
+![Testing](https://s-media-cache-ak0.pinimg.com/564x/73/76/fe/7376fe947404ef37719364d6e2fc6a40.jpg)
+
 In my quest to move disciplines I've also been really surprised by the number of companies who seek what I would consider fairly techy requirements. I work alongside some very talented QAs who've been testing for 5+ years and so asked them about some of the job adverts I had seen recently like the below:
 
 > Desirable:
