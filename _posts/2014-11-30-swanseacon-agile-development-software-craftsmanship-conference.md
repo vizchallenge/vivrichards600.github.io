@@ -19,4 +19,4 @@ Due to the massive price on tickets for software conferences and with the neares
 So yeah, I'm up against it a bit but I'm going to give it a go. My aim is to try get speakers to come from all over the world to speak in little old Swansea. The venue is still to be confirmed and I will shortly be putting out a call for speakers to see if I can get anyone to come along and speak! I hope to reach out to local businesses to help sponsor the event as reach out in a local meetup I run - [Swansea software Development Community](http://meetup.com/swansea-software-development-community).
 
 Website: [www.swanseacon.co.uk](http://swanseacon.co.uk)
-Twitter: [@SwanseaSDC](http://twitter.com/SwanseaSDC)
+Twitter: [@SwanseaCon](http://twitter.com/SwanseaCon)
