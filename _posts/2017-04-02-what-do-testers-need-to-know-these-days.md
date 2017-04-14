@@ -27,4 +27,4 @@ It seems these days you need to be able to write or at least understand some bas
 
 In each interview the interviewers tended to ask some very basic testing questions (what is black box testing, white box, what is quality, boundary testing, regression etc..) and then it jumps quickly in to a very technical conversation. Is this because of my background or is this the way testing is going? I don't know? 
 
-Testers should be automating what's right not everything.
+> Testers should be automating what's right not everything.
