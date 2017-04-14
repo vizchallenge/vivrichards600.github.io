@@ -12,6 +12,6 @@ The meet-up is absolutely free to attend and is a great chance to learn, share a
 
 The communities first event will be on the 30th June 2014 - to take a look at what this community is about please go to the Swansea Software Development Community meetup page. The event is limited to space so is on a first come first served basis so signup today if you are interested.
 
-Meetup page: [www.meetup.com/swansea-software-development-community](http://www.meetup.com/swansea-software-development-community)
+Meetup page: [www.meetup.com/swansea-software-development-community](https://www.meetup.com/Swansea-Software-Development-Meetup/)
 
 Twitter: [@SwanseaSDC](http://twitter.com/SwanseaSDC)
