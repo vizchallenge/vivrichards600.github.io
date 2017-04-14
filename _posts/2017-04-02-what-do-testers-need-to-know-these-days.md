@@ -5,7 +5,7 @@ title: What do testers need to know these days?
 
 I'm currently a software developer and for the past year I have been looking to make the move in to test.
 
-In my quest to move I've been trying to asses what testers are up to these days, what the requested skill set is etc. I was surprised by how many roles requested ISTQB on the job profile but when I got to interview it was just a box ticking exercise. The majority of interviewers stated they didn't really think much of the qualification as it was fairly dates, instead they recommended looking at BCS Agile Testing or Rapid Software Testing!
+In my quest to move I've been trying to asses what testers are up to these days, what the requested skill set is etc. I was surprised by how many roles requested ISTQB on the job profile but when I got to interview it was just a box ticking exercise. The majority of interviewers stated they didn't really think much of the qualification as it was fairly dated, instead they recommended looking at BCS Agile Testing or Rapid Software Testing!
 
 ![Testing](https://s-media-cache-ak0.pinimg.com/564x/73/76/fe/7376fe947404ef37719364d6e2fc6a40.jpg)
 
