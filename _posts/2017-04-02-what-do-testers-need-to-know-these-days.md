@@ -25,6 +25,6 @@ I was lucky enough to be offered the above role which unfortunately I had to tur
 
 It seems these days you need to be able to write or at least understand some basic html, css, javascript and possible get down to code level with Selenium Webdriver (which the last 5 jobs adverts I saw requested).
 
-In each interview the interviewers tended to ask some very basic testing questions (what is black box testing, white box, what is quality, boundary testing, regression etc..) and then it jumps quickly in to a very technical conversation. Is this because of my background or is this the way testing is going? I don't know? Testers should be automating what's right not everything.
+In each interview the interviewers tended to ask some very basic testing questions (what is black box testing, white box, what is quality, boundary testing, regression etc..) and then it jumps quickly in to a very technical conversation. Is this because of my background or is this the way testing is going? I don't know? 
 
-There's no harm in pushing your boundaries and learning something new though, and we're very fortunate to have some great free meet-ups (http://www.meetup.com), conferences (http://www.swanseacon.co.uk - sorry for the shameless plug ;) ) , where you can expose yourself to new things even if it is something you wouldn't use in your day to day work.
+Testers should be automating what's right not everything.
