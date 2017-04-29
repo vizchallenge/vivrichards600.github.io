@@ -3,25 +3,11 @@ layout: post
 title: Using Protractor for end to end testing on non AngularJs pages
 ---
 
-I've always been interested in QA and quite recently have found myself looking at various roles advertised. It's suprising the number of QA roles advertised which desire candidates to have knowledge and experience in Selenium amongst other things perhaps some people wouldn't consider a 'typical' QA to be familiar with. After looking at various QA Engineer roles one particular job caughty my eye, they were seeking the following:
-
-> Desirable
-> * Experience testing web applications (HTML, CSS, JavaScript) and/or web services (REST, SOAP)
-> * Experience with BDD, Cucumber
-> * Coding automated tests with Java, JavaScript or similar languages. Experience with frameworks such as Protractor, Selenium Webdriver, REST Assured or similar
-> * Experience with Continuous Integration / Delivery pipelines and tools such as Jenkins
-> * Linux command-line / bash scripting or simila
-
-I decided this role sounded really interesting and so attempted the [QA Engineer assignment](https://github.com/vivrichards600/QATestingCaseKata). I've previous experience with Selenium Webdriver but thought that I would take a look at Protrator to see if I could learn something new as well as demonstrate my ability to quickly pick up something new. 
-
 ![Protractor](http://www.perfomatix.com/wp-content/uploads/2016/03/workflow1-1.jpg) 
 
 > Protractor is an end-to-end test framework for Angular and AngularJS applications. Protractor runs tests against your application running in a real browser, interacting with it as a user would.
 
-Initially this looked like a non starter after reading through the Protractor homepage. I'd been given a link to a web application which was a non AngularJs site. After further digging I discovered not only were the tests simple to setup using Javascript but you could run them on a non AngularJs page!
-
-Below we will go through how to setup a simple test using Protractor from the QA Engineer assignment which I was given.
-
+Below we will go through how to setup a simple JavaScript test using Protractor and using an example QA Engineer assignment to test.
 
 ## Prerequisites
 
@@ -50,7 +36,7 @@ Let's create a simple test that navigates to the home page of the computers data
 
 Copy the following into HomePageSpec.js:
 
-describe('Computers database homepage', function() {
+`describe('Computers database homepage', function() {
   
   it('should be displayed', function() {
     browser.get('http://computer-database.herokuapp.com/computers');
@@ -60,21 +46,21 @@ describe('Computers database homepage', function() {
   });
   
   beforeEach(function() {
-		// We aren't running Angular so do not want to wait for Angular promises!
+	// We aren't running Angular so do not want to wait for Angular promises!
 		return browser.ignoreSynchronization = true;
 	});
   
-}); 
+}); `
 
 The describe and it syntax is from the Jasmine framework. browser is a global created by Protractor, which is used for browser-level commands such as navigation with browser.get. The beforeEach function is what we include to enable us to run Protractor Javascript tests against non AngularJs pages, this ensures our tests don't hang about waiting for Angular promises! Failure to have this in our test specs will cause tests to fail.
 
 Configuration
 Now create the configuration file. Copy the following into conf.js:
 
-exports.config = {
+`exports.config = {
   seleniumAddress: 'http://localhost:4444/wd/hub',
   specs: ['HomePageSpec.js']
-};
+};`
 
 This configuration tells Protractor where your test files (specs) are, and where to talk to your Selenium Server (seleniumAddress). It will use the defaults for all other configuration. Chrome is the default browser.
 
