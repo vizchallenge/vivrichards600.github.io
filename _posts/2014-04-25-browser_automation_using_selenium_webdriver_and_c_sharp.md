@@ -3,6 +3,8 @@ layout: post
 title: Browser automation using Selenium WebDriver and C#
 ---
 
+![SeleniumWebDriver](https://i0.wp.com/learn-automation.com/wp-content/uploads/2015/08/Cross-browser-testing-in-Selenium-Webdriver.png?fit=525%2C333)
+
 ### Initial Project Setup 
 Create a new Unit Test Project within Visual Studio - for this example it is a C# project.
 
