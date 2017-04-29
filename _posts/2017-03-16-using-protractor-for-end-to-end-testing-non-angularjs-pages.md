@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Browser automation using Protractoron non AngularJs pages
+title: Browser automation using Protractor on non AngularJs pages
 ---
 
 ![Protractor](http://www.perfomatix.com/wp-content/uploads/2016/03/workflow1-1.jpg) 
