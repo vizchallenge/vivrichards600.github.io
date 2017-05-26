@@ -1,6 +1,16 @@
 ---
 layout: post
 title: Social media marketing on a £0 budget
+description: 
+headline: 
+modified: 2016-01-27
+category: Marketing
+tags: [Social Media, Marketing, Budget, Automation]
+imagefeature: 
+mathjax: 
+chart: 
+comments: true
+featured: true
 ---
 
 Over the past two years I've picked up many different tips and tricks which I am going to try and summarise below. These things though quite simple to implement have helped me not only save time, save money, but also to get amazing speakers to give talks at the events I run ([SSDC](http://meetup.com/swansea-software-development-community) / [SwanseaCon](http://swanseacon.co.uk)).

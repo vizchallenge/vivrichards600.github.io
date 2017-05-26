@@ -1,6 +1,16 @@
 ---
 layout: post
 title: Custom GOV.UK Stencils for prototyping a Government Digital Service using Pencil
+description: 
+headline: 
+modified: 2014-11-20
+category: UX
+tags: [UX, Prototyping, GDS, Civil Service, Evolus Pencil]
+imagefeature: 
+mathjax: 
+chart: 
+comments: true
+featured: true
 ---
 
 I've recently been involved in helping build a number of digital services at the [DVLA](https://www.gov.uk/government/organisations/driver-and-vehicle-licensing-agency) (Driver & Vehicle Licensing Agency). Each of the services that are built have to look consistent with the rest of [GOV UK](http://gov.uk) and so have to follow the [Government Service Design Manual](http://govuk-elements.herokuapp.com/) (Government Digital Services). I really enjoy using Pencil and thought I'd create some Stencils to enable people to quickly and easily create Government Digital Service prototypes for new services.

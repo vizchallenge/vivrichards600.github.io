@@ -1,56 +1,43 @@
 ---
-layout: default
+layout: home
+title: BLOG
+description: "The personal blog of Hossain Mohd. Faysal, a doctoral candidate in Electrical Engineering at University of Pennsylvania."
+headline: An Engineer's Diary
+tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsylvania, doha, Qatar]
 ---
 
-<div class="posts">
-	<!-- This loops through the paginated posts -->
-	{% for post in paginator.posts %}
-	<article class="post">
-
-		<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-		<div class="date">
-			Written on {{ post.date | date: "%B %e, %Y" }}
-		</div>
-
-		<div class="entry">
-
-
-			{% assign foundImage = 0 %}
-			{% assign images = post.content | split:"<img " %}
-			{% for image in images %}
-				{% if image contains 'src' %}
-
-				{% if foundImage == 0 %}
-					{% assign html = image | split:"/>" | first %}
-						<a href="{{ site.baseurl }}{{ post.url }}"><img style="height:60px; float:left; padding:0px 15px 5px 0px;" {{ html }} /></a>
-						{% assign foundImage = 1 %}
-					{% endif %}
-				{% endif %}
-			{% endfor %}
-
-			{{ post.excerpt }}
-
-		</div>
-		
-  
-		<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-	
-	</article>
+	{% for post in site.posts %}
+    <article class="notepad-index-post post row">
+        <div class="small-12 medium-3 large-2 columns datetime">
+            <span class="notepad-post-meta">
+                <time datetime="{{ post.date | date_to_xmlschema }}">
+                    <span class="day">
+                        {{ post.date | date: "%d" }}
+                    </span>
+                    <span class="month-year">
+                        {{ post.date | date: "%B %Y" }}
+                    </span>
+                </time>
+            </span>
+        </div>
+        <div class="small-12 medium-9 large-10 columns">
+            <header class="notepad-post-header">
+                <h3 class="notepad-post-title">
+                    <a href="{{ site.url }}{{ post.url }}">
+                        {{ post.title }}
+                    </a>
+                </h3>
+            </header>
+            <section class="notepad-post-excerpt">
+                <p>{{ post.content | strip_html | truncatewords:40 }}</p>
+            </section>
+            
+                <div class="notepad-index-post-tags">
+                {% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
+                    
+                </div>
+            
+        </div>
+    </article>
 	{% endfor %}
-</div>
-
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
-</div>
+	

@@ -1,6 +1,16 @@
 ---
 layout: post
 title: Custom Stencils for prototyping a modern looking Mobile App within Pencil
+description: 
+headline: 
+modified: 2016-11-03
+category: UX
+tags: [UX, Prototyping, Mobile, App]
+imagefeature: 
+mathjax: 
+chart: 
+comments: true
+featured: true
 ---
 
 I've not used [Pencil](http://pencil.evolus.vn/) in a while but thought I'd download it again to try and quickly put together a few prototypes for a new mobile app idea I had. 

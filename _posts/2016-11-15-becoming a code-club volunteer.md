@@ -1,6 +1,16 @@
 ---
 layout: post
 title: Becoming a CodeClub volunteer
+description: 
+headline: 
+modified: 2016-11-15
+category: Community
+tags: [CodeClub, software, development, children, education]
+imagefeature: 
+mathjax: 
+chart: 
+comments: true
+featured: true
 ---
 
 Twenty Two months ago I decided I'd like to do more at my childrens school and decided I'd try help getting children involved with coding. I'm a software developer in my day job and so I though I'd like to put my skills to good use. 

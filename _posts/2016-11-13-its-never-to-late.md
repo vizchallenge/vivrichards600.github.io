@@ -1,6 +1,16 @@
 ---
 layout: post
 title: It's never to late to start a career in software development
+description: 
+headline: 
+modified: 2016-11-13
+category: Development
+tags: [Career, Software, Development]
+imagefeature: 
+mathjax: 
+chart: 
+comments: true
+featured: true
 ---
 
 Whether your struggling to find a job, your current job isn't making you happy or you feel you don't have the right qualifications to start a fun rewarding career, it's never to late to get involved and start a career as a software developer.

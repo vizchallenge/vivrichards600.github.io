@@ -1,6 +1,16 @@
 ---
 layout: post
 title: Browser automation using Protractor on non AngularJs pages
+description: 
+headline: 
+modified: 2017-03-16
+category: Automation
+tags: [Automation, Selenium, WebDriver, JS, Protractor]
+imagefeature: 
+mathjax: 
+chart: 
+comments: true
+featured: true
 ---
 
 ![Protractor](http://www.perfomatix.com/wp-content/uploads/2016/03/workflow1-1.jpg) 

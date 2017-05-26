@@ -1,6 +1,16 @@
 ---
 layout: post
 title: Creating a new Agile Development & Software Craftsmanship conference - SwanseaCon 2015
+description: 
+headline: 
+modified: 2014-11-30
+category: Community
+tags: [Agile, Craftsmanship, Software, Development, Conference]
+imagefeature: 
+mathjax: 
+chart: 
+comments: true
+featured: true
 ---
 
 Due to the massive price on tickets for software conferences and with the nearest ones being as far as London, I've decided to attempt to run one myself here in Swansea. There are quite a few things which are a bit 'iffy' and could go wrong but I'm going to chance it...

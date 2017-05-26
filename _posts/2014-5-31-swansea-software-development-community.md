@@ -1,6 +1,16 @@
 ---
 layout: post
 title: Creating a new meetup - Swansea Software Development Community
+description: 
+headline: 
+modified: 2014-05-31
+category: Community
+tags: [Meetup, Community, Networking]
+imagefeature: 
+mathjax: 
+chart: 
+comments: true
+featured: true
 ---
 
 After being introduced and inspired by the contageous [Sandro Mancuso](https://codurance.com/blog/author/sandro-mancuso/), I've decided to set-up a free meet-up for anybody involved in delivering software.

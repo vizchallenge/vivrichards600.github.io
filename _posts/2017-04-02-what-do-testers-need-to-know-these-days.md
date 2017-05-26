@@ -1,6 +1,16 @@
 ---
 layout: post
 title: What do testers need to know these days?
+description: 
+headline: 
+modified: 2017-04-02
+category: Automation
+tags: [Automation, testing, career]
+imagefeature: 
+mathjax: 
+chart: 
+comments: true
+featured: true
 ---
 
 I'm currently a software developer and for the past year I have been looking to make the move in to test.

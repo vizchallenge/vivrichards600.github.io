@@ -1,6 +1,16 @@
 ---
 layout: post
 title: Browser automation using Selenium WebDriver and C#
+description: 
+headline: 
+modified: 2014-04-25
+category: Automation
+tags: [Automation, Selenium, WebDriver, C#]
+imagefeature: 
+mathjax: 
+chart: 
+comments: true
+featured: true
 ---
 
 ![SeleniumWebDriver](https://i0.wp.com/learn-automation.com/wp-content/uploads/2015/08/Cross-browser-testing-in-Selenium-Webdriver.png?fit=525%2C333)
