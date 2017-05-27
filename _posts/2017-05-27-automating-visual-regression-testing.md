@@ -46,7 +46,7 @@ Below is an example of the testing pyramid. The higher the level, the slower and
 
 In this blog post we're going to focus on the top end of the triangle, looking at ways to improve implementation and execution time as well as adding extra value to our tests.
 
-![_config.yml]({{ site.baseurl }}/Images/pyramid.png)
+![_config.yml]({{ site.baseurl }}/images/pyramid.png)
 
 _The above image is an adaption from http://martinfowler.com/bliki/TestPyramid.html_
 
@@ -54,25 +54,25 @@ _The above image is an adaption from http://martinfowler.com/bliki/TestPyramid.h
 
 Below is some C# code which is using Selenium WebDriver. This is a basic type of UI automated test I've written to demonstrate an automated test you'd typically see people write. Here I am Asserting elements are rendered on a contact form displaying their expected text.
  
-![_config.yml]({{ site.baseurl }}/Images/form1.png)
+![_config.yml]({{ site.baseurl }}/images/form1.png)
 
 ### Humans Vs Machines
 
 Before we go to much further, how good do you think you are at finding differences? Below there are a number of differences between the two images. Once you think you've found them all continue reading.
 
-![_config.yml]({{ site.baseurl }}/Images/spotdiff.png)
+![_config.yml]({{ site.baseurl }}/images/spotdiff.png)
 
 ### How many differences did you find?
 
 There were **5** differences, did you find them all? Sometimes it's difficult to know where all the differences are and to know when to stop checking, having the confidence to know we've found all the differences.
 
-![_config.yml]({{ site.baseurl }}/Images/spotdiffdiffs.png)
+![_config.yml]({{ site.baseurl }}/images/spotdiffdiffs.png)
 
 ### Remember this code?
 
 This was a basic Selenium WebDriver automation test I'd created in C# to Assert that elements were rendered on a contact form along with the text I expected.
  
-![_config.yml]({{ site.baseurl }}/Images/form1.png)
+![_config.yml]({{ site.baseurl }}/images/form1.png)
 
 ### There's been a change
 
@@ -80,26 +80,26 @@ The image below shows some changes somebody has made to the contact form. They d
 
 How many of the below tests would now fail because of this change?
 
-![_config.yml]({{ site.baseurl }}/Images/form2.png)
+![_config.yml]({{ site.baseurl }}/images/form2.png)
 
 ### Only two Asserts would fail!
 
 A developer noticed the two failing tests and makes the required code changes to fix the two failing tests. The tests are now re-run and all the tests now pass and so the developer now moves on to doing something else. Unfortunately the layout of the form is now messed up - hopefully these changes are picked up when manually testing the site before the changes are rolled out!
 
-![_config.yml]({{ site.baseurl }}/Images/formasserts.png)
+![_config.yml]({{ site.baseurl }}/images/formasserts.png)
 
 ### Saving time and cost
 
 What if we could not only automate the UI but some tests typically carried out by manual or exploratory testing? These type of tests could save us lots of time and money whilst also giving us the confidence that unexpected differences like the ones in the UI above could be found.
 
-![_config.yml]({{ site.baseurl }}/Images/pyramid2.png)
+![_config.yml]({{ site.baseurl }}/images/pyramid2.png)
 
 
 ### Could it be this simple?
 
 What if we could automate some visual testing which could pick up visual changes to our software? No longer just checking elements and text have been rendered on our web applications with typical UI automated tests, but comparing what our page looks like and what we expect it to look like.
 
-![_config.yml]({{ site.baseurl }}/Images/form3.png)
+![_config.yml]({{ site.baseurl }}/images/form3.png)
 
 ### Easier to maintain tests
 
@@ -107,13 +107,13 @@ What if we could replace many of the Selenium Tests which simply asserted whethe
 
 The cost to maintain these tests are kept to a minimum, we no longer have to worry about element Id’s/classes changing, updating tests for correct wording etc.
 
-![_config.yml]({{ site.baseurl }}/Images/oldnewcode.png)
+![_config.yml]({{ site.baseurl }}/images/oldnewcode.png)
 
 ### Catch more bugs!
 
 With these additional tests we can gain an extra depth to our tests and assert things which would generally be left down manual testing. Now we have the ability to possibly catch even more bugs to do with layouts, colours and text before we release our software into the wild!
 
-![_config.yml]({{ site.baseurl }}/Images/form1.png)
+![_config.yml]({{ site.baseurl }}/images/form1.png)
 
 ### Quicker execution
 
@@ -121,7 +121,7 @@ It all depends on the type of tests your writing but these tests often take a lo
 
 This additional **visual** automation testing can reduce test execution time dramatically
 
-![_config.yml]({{ site.baseurl }}/Images/execution.png)
+![_config.yml]({{ site.baseurl }}/images/execution.png)
 
 ### How accurate is automated visual testing?
 
@@ -131,17 +131,17 @@ Visual regression tests accuracy depends on the framework/tool you use but with 
 
 To test just how quick and accurate visual testing could be I took a Where’s Wally image and then made a copy of this image and removed Wally and put it to the test!
 
-![_config.yml]({{ site.baseurl }}/Images/wallys.png)
+![_config.yml]({{ site.baseurl }}/images/wallys.png)
 
 ### Let's zoom in just for us humans!
 
 I’ve zoomed in here just to make it a bit easier for us to try and find Wally. It’s still fairly difficult to find him even with more than 50% less of the image removed for us to try and spot the difference!
 
-![_config.yml]({{ site.baseurl }}/Images/zoom.png)
+![_config.yml]({{ site.baseurl }}/images/zoom.png)
 
 ### Got him!
 
-![_config.yml]({{ site.baseurl }}/Images/zoomanswers.png)
+![_config.yml]({{ site.baseurl }}/images/zoomanswers.png)
 
 Let’s see how well the visual test did..
 
@@ -151,7 +151,7 @@ By providing two images with a tiny difference, the automated visual test took j
 
 We also have some flexibility in these test, we have the ability to compare images which hopefully have the same content but may be different sizes or different file types. We can also decide on what we deem to be an acceptable percentage to allow the images to differ.
 
-![_config.yml]({{ site.baseurl }}/Images/vsexecute.png)
+![_config.yml]({{ site.baseurl }}/images/vsexecute.png)
 
 ### Another tool to add to your belt
 
