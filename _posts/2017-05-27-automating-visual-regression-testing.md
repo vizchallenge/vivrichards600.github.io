@@ -167,9 +167,7 @@ There are many tools and frameworks out there for doing visual regression testin
 
 If you'd like to try some automated visual testing yourself [the code can be found by visiting my GitHub page](https://github.com/vivrichards600/AutomatedVisualTesting). 
 
-The solution is based off an idea I found here ([Simple image comparison in .Net](https://www.codeproject.com/articles/374386/simple-image-comparison-in-net)) to compare images. 
-
-I have taken this simple image comparison idea further to automate screen capture both to disk and in memory for speed whilst running tests using Selenium WebDriver.
+Currently we are able to detect a single pixel difference between two images. You have the option of comparing two images or using selenium - navigate to a website, take a screenshot in memory and compare that image to an image you have locally. The library and tests are written in C# using Selenium WebDriver. 
 
 ### Slides
 
