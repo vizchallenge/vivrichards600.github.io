@@ -169,7 +169,7 @@ If you'd like to try some automated visual testing yourself [the code can be fou
 
 The framework is very light weight and currently enables you to to compare differences between; two images, an image and a website url or an image and a pdf page. The framework is very accurate and can detect a single pixel difference using any of the methods above. When differences are found, a copy of the original image is taken and areas where differences were found are drawn on the image and saved locally to help you see what went wrong. [Checkout the project over on GitHub](https://github.com/vivrichards600/AutomatedVisualTesting) for further info and to try it yourself!
 
-![alt text](https://github.com/vivrichards600/AutomatedVisualTesting/blob/master/AutomatedVisualTesting/TestData/diff.png "Chrome Differences Screenshot")
+![alt text](https://github.com/vivrichards600/AutomatedVisualTesting/blob/master/AutomatedVisualTesting/TestData/diff.png?raw=true "Chrome Differences Screenshot")
 
 ### Slides
 
