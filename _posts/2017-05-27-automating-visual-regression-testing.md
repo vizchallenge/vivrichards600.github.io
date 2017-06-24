@@ -167,7 +167,9 @@ There are many tools and frameworks out there for doing visual regression testin
 
 If you'd like to try some automated visual testing yourself [the code can be found by visiting my GitHub page](https://github.com/vivrichards600/AutomatedVisualTesting). 
 
-The framework is very light weight and currently enables you to to compare differences between; two images, an image and a website url or an image and a pdf page. The framework is very accurate and can detect a single pixel difference using any of the methods above. Check out the github page by clicking the link above for further info!
+The framework is very light weight and currently enables you to to compare differences between; two images, an image and a website url or an image and a pdf page. The framework is very accurate and can detect a single pixel difference using any of the methods above. When differences are found, a copy of the original image is taken and areas where differences were found are drawn on the image and saved locally to help you see what went wrong. [Checkout the project over on GitHub](https://github.com/vivrichards600/AutomatedVisualTesting) for further info and to try it yourself!
+
+![alt text](https://github.com/vivrichards600/AutomatedVisualTesting/blob/master/AutomatedVisualTesting/TestData/diff.png "Chrome Differences Screenshot")
 
 ### Slides
 
