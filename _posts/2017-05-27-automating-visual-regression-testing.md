@@ -167,7 +167,7 @@ There are many tools and frameworks out there for doing visual regression testin
 
 If you'd like to try some automated visual testing yourself [the code can be found by visiting my GitHub page](https://github.com/vivrichards600/AutomatedVisualTesting). 
 
-Currently we are able to detect a single pixel difference between two images. You have the option of comparing two images or using selenium - navigate to a website, take a screenshot in memory and compare that image to an image you have locally. The library and tests are written in C# using Selenium WebDriver. When differences are found a _diff.png image is created locally showing you exactly where the difference was that was found.
+The framework is very light weight and currently enables you to to compare differences between; two images, an image and a website url or an image and a pdf page. The framework is very accurate and can detect a single pixel difference using any of the methods above. Check out the github page by clicking the link above for further info!
 
 ### Slides
 
