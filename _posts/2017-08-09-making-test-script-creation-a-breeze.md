@@ -4,7 +4,7 @@ title: Making test script creation, test and bug reports easier
 description: 
 headline: 
 modified: 2017-08-09
-category: Automation
+category: Manual Testing
 tags: [test scripts, exploratory testing, manual testing, bug report, test report, recording test results]
 imagefeature: 
 mathjax: 
@@ -13,7 +13,7 @@ comments: true
 featured: true
 ---
 
-### Making test script creation a breeze
+### Making test script creation a breeze.
 
 Over the past few months part of my role as a tester has been to create test scripts for exisiting customer journeys at the company I work for. As well as creating these test scripts I also have to record results of the test runs of these scripts as well as be able to report bugs reproducing the steps and any screenshots to help the team to resolve the issues I find.
 
