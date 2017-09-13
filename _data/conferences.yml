@@ -4,7 +4,7 @@
     role: [Talk]
     title: Spot the difference; Automating Visual Regression Testing
     url:  https://www.dddnorth.co.uk
-    country:  England
+    country:  england
     city:  Bradford
     year: 2017
   - startdate: 25th September 2017
@@ -12,7 +12,7 @@
     name: SwanseaCon
     role: [Organiser]
     url:  https://www.swanseacon.co.uk
-    country:  Wales
+    country:  wales
     city:  Swansea
     year: 2017
   - startdate: 16th September 2017
@@ -21,7 +21,7 @@
     role: [Talk]
     title: Spot the difference; Automating Visual Regression Testing
     url:  https://www.dddeastanglia.co.uk
-    country:  England
+    country:  england
     city:  Cambridge
     year: 2017
   - startdate: 21st August 2017
@@ -30,7 +30,7 @@
     role: [Talk]
     title: Spot the difference; Automating Visual Regression Testing
     url:  https://www.meetup.com/Swansea-Software-Development-Meetup/
-    country:  Wales
+    country:  wales
     city:  Swansea
     year: 2017
   - startdate: 12th September 2016
@@ -38,7 +38,7 @@
     name: SwanseaCon
     role: [Organiser]
     url:  https://www.swanseacon.co.uk
-    country:  Wales
+    country:  wales
     city:  Swansea
     year: 2016
   - startdate: 7th September 2016
@@ -46,6 +46,6 @@
     name: SwanseaCon
     role: [Organiser]
     url:  https://www.swanseacon.co.uk
-    country:  Wales
+    country:  wales
     city:  Swansea
     year: 2015
