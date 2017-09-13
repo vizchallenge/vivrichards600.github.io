@@ -2,6 +2,7 @@
     enddate:
     name: DDD North
     role: [Talk]
+    title: Spot the difference; Automating Visual Regression Testing
     url:  https://www.dddnorth.co.uk
     country:  England
     city:  Bradford
@@ -18,6 +19,7 @@
     enddate: 16th September 2017
     name: DDD East Anglia
     role: [Talk]
+    title: Spot the difference; Automating Visual Regression Testing
     url:  https://www.dddeastanglia.co.uk
     country:  England
     city:  Cambridge
@@ -26,6 +28,7 @@
     enddate: 21st August 2017
     name: Swansea Software Development Community
     role: [Talk]
+    title: Spot the difference; Automating Visual Regression Testing
     url:  https://www.meetup.com/Swansea-Software-Development-Meetup/
     country:  Wales
     city:  Swansea
