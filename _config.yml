@@ -23,6 +23,7 @@ owner:
   #instagram:      hmfaysal
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    https://plus.google.com/u/0/105746254222323222292
+  linkedin:       vivrichards
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-59215979-1
@@ -33,11 +34,13 @@ bing_verify:
 # Links to include in footer navigation
 # For external links add external: true
 links:
-  - title: Home
+  - title: Blog
     url: /
     external: false
     icon: home
-  - title: Categories
+  - title: Events
+    url: /events
+  - title: Archive
     url: /categories
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones

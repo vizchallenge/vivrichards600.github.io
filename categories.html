@@ -2,13 +2,16 @@
 layout: page
 title: Category Index
 permalink: /categories/index.html
-title: Category Index
+title: Archive
 tags: [Categories]
 description: "An archive of posts sorted by categories."
 
 ---
 
 <ul class="tag-box inline">
+
+<p style="text-align: center">So far I've written <span class="bluenumber">{{ site.posts.size }}</span> posts, but a lot more to come!</p>
+
 {% assign tags_list = site.categories %}  
   {% if tags_list.first[0] == null %}
     {% for tag in tags_list %} 

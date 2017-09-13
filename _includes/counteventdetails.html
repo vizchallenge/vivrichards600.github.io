@@ -1,0 +1,37 @@
+{% assign keynotecount = 0 %}
+{% assign organisercount = 0 %}
+{% assign talkcount = 0 %}
+{% assign workshopcount = 0 %}
+{% assign tutorialcount = 0 %}
+
+{% assign countries = nil %}
+
+{% for conference in site.data.conferences %}
+
+  {% if forloop.last == true %}
+      {% assign countries = countries | append: conference.country %}
+    {% else %}
+      {% assign countries = countries | append: conference.country | append: ', ' %}
+  {% endif %}
+
+  {% for role in conference.role %}
+    {% if role == "Keynote" %}
+      {% assign keynotecount = keynotecount | plus: 1   %}
+    {% endif %}
+    {% if role == "Organiser" %}
+      {% assign organisercount = organisercount | plus: 1   %}
+    {% endif %}
+    {% if role == "Talk" %}
+      {% assign talkcount = talkcount | plus: 1   %}
+    {% endif %}
+    {% if role == "Workshop" %}
+      {% assign workshopcount = workshopcount | plus: 1   %}
+    {% endif %}
+    {% if role == "Tutorial" %}
+      {% assign tutorialcount = tutorialcount | plus: 1   %}
+    {% endif %}
+
+  {% endfor %}
+{% endfor %}
+
+{% assign uniqueCountries = countries | split: ', ' | uniq | split: ', ' %}
