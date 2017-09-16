@@ -16,7 +16,7 @@
     city:  Swansea
     year: 2017
   - startdate: 16th September 2017
-    enddate: 16th September 2017
+    enddate: 
     name: DDD East Anglia
     role: [Talk]
     title: Spot the difference; Automating Visual Regression Testing
@@ -25,7 +25,7 @@
     city:  Cambridge
     year: 2017
   - startdate: 21st August 2017
-    enddate: 21st August 2017
+    enddate: 
     name: Swansea Software Development Community
     role: [Talk]
     title: Spot the difference; Automating Visual Regression Testing
