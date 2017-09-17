@@ -4,7 +4,7 @@ title: My first talk at a conference
 description: 
 headline: 
 modified: 2017-09-17
-category: Community
+category: events
 tags: [DDD, speaking, conference]
 imagefeature: 
 mathjax: 
