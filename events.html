@@ -10,7 +10,7 @@ description: "A list of my upcoming and past conference engagements"
 <p>I started public speaking toward the end of August 2017 and thus far at <span class="bluenumber">{{ site.data.conferences.size}}</span> events, I've done <span class="bluenumber">{{talkcount}}</span> talks, and organised <span class="bluenumber">{{organisercount}}</span> events, in a total of <span class="bluenumber">{{uniqueCountries.size}}</span> countries. Plus I've organised/co-organised many local meetups.
 <p>If you're interested to know where I'm going to be and what events I'm attending, look no further! I will do my best to keep this up to date.</p>
 <p>If you're interested in having me talk or help you organise an event, please contact me using your preferred method from my footer.</p>
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=14TKimmaXWyZ3cj0Evdh-C7ILWmOpUTPb" width="640" height="480"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=14TKimmaXWyZ3cj0Evdh-C7ILWmOpUTPb" width="100%"></iframe>
 {% assign events_by_year = site.data.conferences | group_by:"year" | sort:"startdate" %}
 {% for year in events_by_year %}
 <h2>{{year.name}}</h2>
