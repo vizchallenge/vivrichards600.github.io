@@ -173,4 +173,6 @@ The framework is very light weight and currently enables you to to compare diffe
 
 ### Slides
 
-I've given this talk this month at a [local meet-up](https://www.meetup.com/Swansea-Software-Development-Meetup) and it had a great reception. If you are interested, the slides can be found here: [Automating Visual Regression Testing](https://www.slideshare.net/vivrichards/automating-visual-regression-testing)
+I've given this talk this month at a [local meet-up](https://www.meetup.com/Swansea-Software-Development-Meetup) and it had a great reception. If you are interested, the slides can be found here: [Automating Visual Regression Testing](https://www.slideshare.net/vivrichards/spot-the-difference-automating-visual-regression-testing) *
+
+* This talk has since been given at DDD East Anglia and DDD North and so the slides have been updated.
