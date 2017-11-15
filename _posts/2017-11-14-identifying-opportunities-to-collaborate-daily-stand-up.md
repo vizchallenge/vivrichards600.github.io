@@ -17,6 +17,8 @@ featured: true
 
 In Scrum, on each day of a sprint, the team holds a daily scrum meeting called the "daily scrum.” Meetings are typically held in the same location and at the same time each day. Ideally, a daily scrum meeting is held in the morning, as it helps set the context for the coming day's work. These scrum meetings are strictly time-boxed to 15 minutes. This keeps the discussion brisk but relevant.
 
+![_config.yml]({{ site.baseurl }}/images/standup.png)
+
 #### Three Questions 
 In turn each team member gives an update to the team addressing three questions:
 
