@@ -1,3 +1,11 @@
+    - startdate: 10th September 2018
+    enddate:
+    name: SwanseaCon
+    role: [Organiser]
+    url:  https://www.swanseacon.co.uk
+    country:  Wales
+    city:  Swansea
+    year: 2018
   - startdate: 11th June 2018
     enddate:
     name: Smart Devs User Group
