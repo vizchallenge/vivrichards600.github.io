@@ -15,6 +15,14 @@
     country:  England
     city:  Hereford
     year: 2018  
+  - startdate: 17th April 2018
+    enddate:
+    name: Leeds Testing Atelier
+    role: [Talk]
+    url:  http://www.testingatelier.community
+    country:  Leeds
+    city:  England
+    year: 2018
   - startdate: 14th October 2017
     enddate:
     name: DDD North
@@ -64,5 +72,4 @@
     role: [Organiser]
     url:  https://www.swanseacon.co.uk
     country:  Wales
-    city:  Swansea
-    year: 2015
+    city:  Swansea    year: 2015
