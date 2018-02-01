@@ -23,7 +23,7 @@ Automated testing can be more reliable as it is performed by tools and/or script
 
 When looking to invest implement automated testing there are many hurdles which can stop you dead in your tracks. One of the most common issues is the investment required for testing tools. Often tools costs money, but even when they are free (open source), there is usually a lot of time which needs to be invested in order to correctly implement the automated checks, ensuring the team are comfortable in using the new tools and that they are achieving what was intended. One of the biggest issues I have found when using automated tests is that **automated testing does not entail human observation** and cannnot guarantee user-friendliness or positive customer experience.
 
-> "It can be a slipper slope"
+> "It can be a slippery slope"
 
 Quite often when people are shown new tools or frameworks it's very easy to get carried away. When looking to automate tests it is important to automate what rights, just because you can it doesn't mean you should!
 
