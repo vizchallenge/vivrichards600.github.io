@@ -9,7 +9,7 @@
   - startdate: 11th June 2018
     enddate:
     name: Smart Devs User Group
-    role: [Talk]
+    role: [Speaker]
     title: Spot the difference; Automating Visual Regression Testing
     url:  https://www.meetup.com/Smart-Devs-User-Group/events/247185718/
     country:  England
@@ -18,15 +18,15 @@
   - startdate: 17th April 2018
     enddate:
     name: Leeds Testing Atelier
-    role: [Talk]
+    role: [Speaker]
     url:  http://www.testingatelier.community
-    country:  Leeds
-    city:  England
+    country:  England
+    city:  Leeds
     year: 2018
   - startdate: 14th October 2017
     enddate:
     name: DDD North
-    role: [Talk]
+    role: [Speaker]
     title: Spot the difference; Automating Visual Regression Testing
     url:  https://www.dddnorth.co.uk
     country:  England
@@ -43,7 +43,7 @@
   - startdate: 16th September 2017
     enddate: 
     name: DDD East Anglia
-    role: [Talk]
+    role: [Speaker]
     title: Spot the difference; Automating Visual Regression Testing
     url:  https://www.dddeastanglia.co.uk
     country:  England
@@ -52,7 +52,7 @@
   - startdate: 21st August 2017
     enddate: 
     name: Swansea Software Development Community
-    role: [Talk]
+    role: [Speaker]
     title: Spot the difference; Automating Visual Regression Testing
     url:  https://www.meetup.com/Swansea-Software-Development-Meetup/
     country:  Wales

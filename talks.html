@@ -1,0 +1,33 @@
+---
+layout: page
+permalink: /talks/index.html
+title: Public Events
+description: "A list of sessions I have given"
+
+---
+
+<p>...</p>
+
+<style>
+
+.talks-list {
+width:65%;
+float:left;
+}
+
+
+.talk-content {
+    margin: 0 auto 2em auto;
+    max-width: 56.25rem;
+	}
+</style>
+<div class="talk-content">
+	<div class="talks-list">
+		
+		{% for talk in site.data.talks %}
+			<h2>{{talk.name}}</h2>
+			<p>{{talk.description}}</p>
+		{% endfor %}
+		
+	</div>
+</div>
