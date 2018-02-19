@@ -23,6 +23,14 @@
     country:  England
     city:  Leeds
     year: 2018
+  - startdate: 24th March 2018
+    enddate:
+    name: DDD Wales
+    role: [Speaker]
+    url:  http://www.dddwales.com
+    country:  Wales
+    city:  Swansea
+    year: 2018
   - startdate: 14th October 2017
     enddate:
     name: DDD North
