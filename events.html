@@ -55,9 +55,9 @@ float:left;
   {% endif %}
   <span class="orangepipe"> | </span>
   <span>{{ event.role | join: ', ' }}</span>
-  {% if event.title != nil %}
   
-  <img src="http://img.freeflagicons.com/thumb/round_icon/{{ event.country|downcase  }}/{{ event.country|downcase  }}_64.png" alt="{{ event.city }}, {{ event.country }}" title="{{ event.city }}, {{ event.country }}" />
+  <img src="http://img.freeflagicons.com/thumb/round_icon/{{ event.country|downcase  }}/{{ event.country|downcase  }}_640.png" alt="{{ event.city }}, {{ event.country }}" title="{{ event.city }}, {{ event.country }}" />
+  {% if event.title != nil %}
   
   <br ><span>Session: {{event.title}}</span>
   
