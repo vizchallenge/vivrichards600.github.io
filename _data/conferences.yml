@@ -19,6 +19,7 @@
     enddate:
     name: Leeds Testing Atelier
     role: [Speaker]
+    title: Spot the difference; Automating Visual Regression Testing
     url:  http://www.testingatelier.community
     country:  England
     city:  Leeds
@@ -27,9 +28,19 @@
     enddate:
     name: DDD Wales
     role: [Organiser/Speaker]
+    title: Spot the difference; Automating Visual Regression Testing
     url:  http://www.dddwales.com
     country:  Wales
     city:  Swansea
+    year: 2018
+  - startdate: 5th March 2018
+    enddate:
+    name: Pembrokeshire Devs
+    role: [Speaker]
+    title: Spot the difference; Automating Visual Regression Testing
+    url:  https://www.meetup.com/pembsdevs/events/247348609/
+    country:  Wales
+    city:  Pembrokeshire
     year: 2018
   - startdate: 14th October 2017
     enddate:

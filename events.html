@@ -55,6 +55,14 @@ float:left;
   {% endif %}
   <span class="orangepipe"> | </span>
   <span>{{ event.role | join: ', ' }}</span>
+  {% if event.title != nil %}
+  
+  <img src="http://img.freeflagicons.com/thumb/round_icon/{{ event.country|downcase  }}/{{ event.country|downcase  }}_64.png" alt="{{ event.city }}, {{ event.country }}" title="{{ event.city }}, {{ event.country }}" />
+  
+  <br ><span>Session: {{event.title}}</span>
+  
+  
+  {% endif %}
  <!--  {% if event.title == nil %}
   {% else %}
   <span class="orangepipe"> | </span>
@@ -62,7 +70,7 @@ float:left;
   {% endif %} -->
 	
 
-  <img src="http://img.freeflagicons.com/thumb/round_icon/{{ event.country|downcase  }}/{{ event.country|downcase  }}_64.png" alt="{{ event.city }}, {{ event.country }}" title="{{ event.city }}, {{ event.country }}" />
+  <hr>
 </li>
 {% endfor %}
 </ul>
@@ -72,3 +80,6 @@ float:left;
 	<p><iframe src="https://www.google.com/maps/d/u/0/embed?mid=14TKimmaXWyZ3cj0Evdh-C7ILWmOpUTPb" width="100%"></iframe></p>
 </div>
 </div>
+<style>
+  li {padding-bottom:5px;}
+  </style>
