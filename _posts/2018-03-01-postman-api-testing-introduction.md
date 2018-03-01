@@ -179,7 +179,6 @@ As your tests run you will be shown your results. For each request that is made 
 ## Generating Documentation
 
 Generating documentation with Postman’s built in service has some limitations but if you would like to look you can follow the steps below. There are however many projects on [https://github.com/search?utf8=%E2%9C%93&q=postman+documentation&type=](github.com) which allow you to export your tests and create documentation for free.
-Generating documentation with Postman’s built in service has some limitations but if you would like to look you can follow the steps below. There are however many projects on [https://github.com/search?utf8=%E2%9C%93&q=postman+documentation&type=](github.com) which allow you to export your tests and create documentation for free.
 
 On the left-hand side of Postman next to your Collection, click on the ‘…’ and then select ‘Publish Docs’.
 
