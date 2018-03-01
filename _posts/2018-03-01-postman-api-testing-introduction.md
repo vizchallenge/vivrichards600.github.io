@@ -189,5 +189,7 @@ If you do not have an account, you will be requested to ‘Sign in to Postman’
 ![_config.yml]({{ site.baseurl }}/images/publish-collection.png) 
 
 Once published you will be shown a URL where your documentation has been published to. Click on the link to view your documentation.
+
+![_config.yml]({{ site.baseurl }}/images/postman-doc.png)
  
 
