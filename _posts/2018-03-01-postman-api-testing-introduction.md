@@ -192,4 +192,7 @@ Once published you will be shown a URL where your documentation has been publish
 
 ![_config.yml]({{ site.baseurl }}/images/postman-doc.png)
  
+## Taking things further
+
+If you'd like to try some more advanced testing, check out the documentation on the Postman website https://www.getpostman.com/docs/v6/
 
