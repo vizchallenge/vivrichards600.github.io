@@ -15,12 +15,21 @@
     country:  England
     city:  Hereford
     year: 2018  
+  - startdate: 16th May 2018
+    enddate: 18th May 2018
+    name: WeAreDevelopers 2018
+    role: [Speaker]
+    title: Spot the difference; Automating Visual Regression Testing
+    url:  http://www.testingatelier.community
+    country:  Austria
+    city:  Vienna
+    year: 2018
   - startdate: 17th April 2018
     enddate:
     name: Leeds Testing Atelier
     role: [Speaker]
     title: Spot the difference; Automating Visual Regression Testing
-    url:  http://www.testingatelier.community
+    url:  https://www.wearedevelopers.com/congress/
     country:  England
     city:  Leeds
     year: 2018
