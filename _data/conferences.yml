@@ -23,6 +23,15 @@
     url:  http://www.testingatelier.community
     country:  Austria
     city:  Vienna
+    year: 2018  
+  - startdate: 24th April 2018
+    enddate: 
+    name: Test and QA Wales Meetup
+    role: [Speaker]
+    title: Spot the difference; Automating Visual Regression Testing
+    url:  https://www.meetup.com/Cardiff-Software-Testers-Meetup/events/248898978/?eventId=248898978
+    country:  Wales
+    city:  Cardiff
     year: 2018
   - startdate: 17th April 2018
     enddate:
